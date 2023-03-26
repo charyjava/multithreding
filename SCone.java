@@ -28,8 +28,8 @@ public class SCone
 		TSOneTwo d1= new TSOneTwo(c,10);
 		System.out.println(d1.i +"......"+ d1.c.j);
 		TSOneTwo d2=(TSOneTwo)d1.clone();
-		d1.i=888;
-		d1.c.j=999;
+		d1.i=889;
+		d1.c.j=989;
 		System.out.println(d2.i +"...."+ d2.c.j);
 	}
 }
